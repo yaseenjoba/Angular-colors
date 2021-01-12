@@ -1,0 +1,4 @@
+<p>colors works!</p>
+<h1>{{colorName}}</h1>
+<app-color [color]=" colorName " (colorFrom)="changeName($event)"></app-color>
+<div [hidden]="colorName==prevColor">Error</div>
